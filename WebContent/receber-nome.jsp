@@ -7,17 +7,20 @@
 <title>Hello World é o Kacilds!!!</title>
 </head>
 <body>
-		<h1>Bem vindo ao curso JSP</h1>
+<h1>Bem vindo ao curso JSP</h1>
 		<% out.print("Sucesso garantido, mas esqueça o suporte!!!"); %>
 		<hr>
 		<br>
-		<form action="receber-nome.jsp">
-			<input type="text" id="nome" name="nome">
-			<input type="submit" value="Enviar"></input>
-					
-		
-		
-		</form>
-
+		<h3>Passando o nome por parametro na forma simples</h3>
+		<% out.print(request.getParameter("nome")); %>
+		<br>
+		<hr>
+		<h3>Passando o nome pelo Java</h3>
+		<% 
+		String nome = "Nome recebido: " + request.getParameter("nome"); 
+		out.print(nome);
+		%>
+		<hr>
+		<br>
 </body>
 </html>
