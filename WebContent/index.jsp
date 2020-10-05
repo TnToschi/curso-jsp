@@ -15,9 +15,25 @@
 			<input type="text" id="nome" name="nome">
 			<input type="submit" value="Enviar"></input>
 					
-		
-		
 		</form>
-
+		
+			<hr>
+				<h3>Tag Declarativa</h3>
+				<%="Seu Sucesso Garantido, mas esqueça o suporte!"%>
+				<br>
+				<%="Nome Recebeido: " + request.getParameter("nome")%>
+				<br>
+				<%! int cont = 2; %>
+				<%= "Contatdor:  " + cont%>
+				<hr>
+				<H3>Exemplo de cálculo</H3>
+				<%!
+				public int retorna(int n){
+					return n * 3;
+				}
+				%>
+				<%= retorna(7) %>
+	
+				<hr>
 </body>
 </html>
