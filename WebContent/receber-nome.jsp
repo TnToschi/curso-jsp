@@ -24,6 +24,13 @@
 	out.print(nome);
 	%>
 	<hr>
+		<h3>Tag Declarativa</h3>
+	<%= "Seu Sucesso Garantido, mas esqueça o suporte!"%>
 	<br>
+	<%= "Nome Recebeido: " + request.getParameter("nome") %>
+		
+	
+	<br>
+	<hr>
 </body>
 </html>
