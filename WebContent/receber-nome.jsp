@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+	
+<%@ taglib prefix="myprefix" uri="WEB-INF/testetag.tld" %>	
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +26,17 @@
 		String nome = "Nome recebido: " + request.getParameter("nome");
 	out.print(nome);
 	%>
-
+	<hr>
+	
+	<h3>Session</h3>
+	<%= session.getAttribute("curso")%>
+	<hr>
+	
+	<h3>Tag lib em JSP</h3>
+		<myprefix:minhatag/>
+		<hr>	
+	
+	
 	
 	<br>
 	<hr>
