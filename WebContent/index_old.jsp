@@ -55,7 +55,7 @@
 		jsp:param value="Curso Bosta de JSP" name="parametro"/<br>
 		fecha o comando: /jsp:forward
 		<hr>
-		
+	
 		
 		
 </body>
