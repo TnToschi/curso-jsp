@@ -35,10 +35,11 @@
 	<h3>Tag lib em JSP</h3>
 		<myprefix:minhatag/>
 		<hr>	
-	
-	
-	
-	<br>
+	<h3>Forwards</h3>
+	<h4>Redireciona para receber-nome.jsp </h4>
+	<hr>
+	<h4>exemplo 2</h4>
+	<%= request.getParameter("parametro")%> 
 	<hr>
 </body>
 </html>

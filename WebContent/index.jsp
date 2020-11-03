@@ -42,7 +42,21 @@
 		
 		<h3>Tag lib em JSP</h3>
 		<myprefix:minhatag/>
+		<hr>		
+		<h3>Forwards</h3>
+		<h4>Redireciona para a página indicada</h4>	
+		jsp:forward page="receber-nome.jsp"
 		<hr>
+		
+		<h4> Exemplo 2</h4>
+		Envia o value por parametro para a pagina destino
+		<br>
+		jsp:forward page="receber-nome.jsp" <br>
+		jsp:param value="Curso Bosta de JSP" name="parametro"/<br>
+		fecha o comando: /jsp:forward
+		<hr>
+		
+		
 		
 </body>
 </html>
