@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<hr>
 <h2>Acesso Negado!!!</h2>
+<hr>
 </body>
 </html>
