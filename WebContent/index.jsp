@@ -14,27 +14,19 @@
 <title>Hello World é o Kacilds!!!</title>
 </head>
 <body>
-
-		<h1><c:out value= "${'Bem Vindo ao JSTL, seja feliz!!!'}"/></h1>
-		<hr>
-
-		<form action="LoginServlet" method="post">
+			<h1>Index</h1>
+			<hr>
+			<form action="LoginServlet" method="post">
 			Login:
 			<input type="text" id="login" name="login">
 			<br/>
 			Senha:
-			<input type="text" id="senha" name="senha">
+			<input type="password" id="senha" name="senha">
 			<p>
 			<input type="submit" value="LOGAR">
 		</form>
-		<hr>
-		<c:import  var="data" url="https://www.google.com.br"/>
-		<c:out value="${data}"></c:out>
-		<hr>
-		<h3>Set</h3>
-		<p>
-		<c:set var="data" scope="page" value="${500 * 6 }" />
-		<c:out value="${data}"/>
+		
+		
 </body>
 </html>
 

@@ -14,7 +14,7 @@
 			<h1>Acesso Liberado</h1>
 			<hr>
 			
-					
+			<a href="cadastroUsuario.jsp">Cadastro de usuário</a>		
 			
 			</body>
 </html>
