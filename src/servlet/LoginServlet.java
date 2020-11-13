@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import beans.BeanCursoJsp;
+//import beans.BeanCursoJsp;
 import dao.DaoLogin;
 
 
@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		try {
-		BeanCursoJsp beanCursoJsp = new BeanCursoJsp();
+		//BeanCursoJsp beanCursoJsp = new BeanCursoJsp();
 		
 		String login = request.getParameter("login");
 		String senha = request.getParameter("senha");
